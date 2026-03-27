@@ -10,8 +10,8 @@
     <div class="container">
         <h1>CRUD de Livros</h1>
         <form id="bookForm">
-            <input type="text" id="bookTitle" placeholder="Título do Livro" required>
-            <input type="text" id="bookAuthor" placeholder="Autor do Livro" required>
+            <input type="text" id="Ltitulo" placeholder="Título do Livro" required>
+            <input type="text" id="Lautor" placeholder="Autor do Livro" required>
             <button type="submit">Adicionar Livro</button>
         </form>
         <table id="bookTable">
