@@ -7,7 +7,7 @@ USE bancoteste;
 -- Tabela `autor`
 CREATE TABLE IF NOT EXISTS `autor` (
   `AutorID` int(11) NOT NULL,
-  `Nome` varchar(45) DEFAULT NULL,
+  `Nome` varchar(225) DEFAULT NULL,
   PRIMARY KEY (`AutorID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
