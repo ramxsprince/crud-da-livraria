@@ -10,9 +10,7 @@ $editData = null;
 // EDITAR
 if (isset($_GET['edit'])) {
     $id = $_GET['edit'];
-    $result = $conn->query("
-        SELECT * FROM livro WHERE LivroID=$id
-    ");
+    $result = $conn->query("SELECT * FROM livro WHERE LivroID=$id");
     $editData = $result->fetch_assoc();
 }
 
@@ -54,16 +52,14 @@ if (isset($_GET['delete'])) {
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Sistema de Livraria</title>
+<title>Sistema de Biblioteca</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Sistema de Gestão de Biblioteca</h1>
+    <h1>Sistema de Biblioteca</h1>
 </header>
-
-
 
 <main>
 
